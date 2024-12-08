@@ -83021,15 +83021,18 @@ n=!0}}if(!n){p.toString
 B.b.F(k,p)}}this.cg(new A.pC())
 if(k.length!==0)this.am4()
 A.lL("globalReportMergedList "+k.length)},
-am4(){var s,r,q,p,o,n,m,l=this
-for(s=l.y1.a,r=s.length,q=l.xr.a,p=l.x2.a,o=0;o<s.length;s.length===r||(0,A.O)(s),++o){n=s[o]
-m=n.b
-if(m==="18")B.b.F(p,n)
-else if(m==="21")B.b.F(q,n)}A.lL("globalReport18List "+p.length)
-A.lL("globalReport21List "+q.length)
-l.RH()
-l.RH()
-l.cg(new A.pC())},
+am4(){var s,r,q,p,o,n,m=this,l=m.x2.a
+B.b.T(l)
+s=m.xr.a
+B.b.T(s)
+for(r=m.y1.a,q=r.length,p=0;p<r.length;r.length===q||(0,A.O)(r),++p){o=r[p]
+n=o.b
+if(n==="18")B.b.F(l,o)
+else if(n==="21")B.b.F(s,o)}A.lL("globalReport18List "+l.length)
+A.lL("globalReport21List "+s.length)
+m.RH()
+m.RH()
+m.cg(new A.pC())},
 RH(){var s=this,r=A.aa(["18",s.Ku(s.x2),"21",s.Ku(s.xr)],t.N,t.z)
 s.y2=r
 A.lL("Report totals: "+r.k(0))
@@ -83699,18 +83702,18 @@ return A.E($async$uJ,r)}}
 A.My.prototype={
 J(a){return A.qY(null,null,new A.acm(),t.C,t.Tz)}}
 A.acm.prototype={
-$2(a,b){var s,r,q,p,o,n=null,m="\u0627\u0644\u0627\u062c\u0645\u0627\u0644\u0649",l="18",k="count",j="21",i=A.dp(a,!1,t.C),h=i.R8,g=i.x2,f=i.xr
-if(h.a.length===0)s=A.f8(A.bq("\u0627\u0628\u062f\u0627 \u0627\u0644\u0628\u062d\u062b \u0639\u0646 \u062a\u0642\u0631\u064a\u0631",n,n,n,A.L(a).p2.z,n,n),n,n)
-else{s=A.zg(n,new A.acj(g),g.a.length,n,B.eq,!0)
-r=i.y2.h(0,l).h(0,k)==null?"":J.bQ(i.y2.h(0,l).h(0,k))
-q=J.nT(i.y2.h(0,l).h(0,"weight"),2)
-q=A.yU("",m,r,0,J.nT(i.y2.h(0,l).h(0,"total"),2),q)
-r=$.aI().gb8()
-f=A.zg(n,new A.ack(f),f.a.length,n,B.eq,!0)
-p=i.y2.h(0,j).h(0,k)==null?"":J.bQ(i.y2.h(0,j).h(0,k))
-o=J.nT(i.y2.h(0,j).h(0,"weight"),2)
-o=A.cL(A.b([B.hI,s,q,new A.ap(n,20*r,n,n),B.hI,f,A.yU("",m,p,0,J.nT(i.y2.h(0,j).h(0,"total"),2),o),new A.ap(n,50*$.aI().gb8(),n,n),A.xj("\u0639\u0631\u0636 \u062a\u0642\u0631\u064a\u0631 \u062c\u062f\u064a\u062f",n,new A.acl(i),20,10,200)],t.p),B.A,B.B)
-s=o}return s},
+$2(a,b){var s,r,q,p,o=null,n="\u0627\u0644\u0627\u062c\u0645\u0627\u0644\u0649",m="18",l="count",k="21",j=A.dp(a,!1,t.C),i=j.x2,h=j.xr,g=i.a.length
+if(g===0||h.a.length===0)g=A.f8(A.bq("\u0627\u0628\u062f\u0627 \u0627\u0644\u0628\u062d\u062b \u0639\u0646 \u062a\u0642\u0631\u064a\u0631",o,o,o,A.L(a).p2.z,o,o),o,o)
+else{g=A.zg(o,new A.acj(i),g,o,B.eq,!0)
+s=j.y2.h(0,m).h(0,l)==null?"":J.bQ(j.y2.h(0,m).h(0,l))
+r=J.nT(j.y2.h(0,m).h(0,"weight"),2)
+r=A.yU("",n,s,0,J.nT(j.y2.h(0,m).h(0,"total"),2),r)
+s=$.aI().gb8()
+h=A.zg(o,new A.ack(h),h.a.length,o,B.eq,!0)
+q=j.y2.h(0,k).h(0,l)==null?"":J.bQ(j.y2.h(0,k).h(0,l))
+p=J.nT(j.y2.h(0,k).h(0,"weight"),2)
+p=A.cL(A.b([B.hI,g,r,new A.ap(o,20*s,o,o),B.hI,h,A.yU("",n,q,0,J.nT(j.y2.h(0,k).h(0,"total"),2),p),new A.ap(o,50*$.aI().gb8(),o,o),A.xj("\u0639\u0631\u0636 \u062a\u0642\u0631\u064a\u0631 \u062c\u062f\u064a\u062f",o,new A.acl(j),20,10,200)],t.p),B.A,B.B)
+g=p}return g},
 $S:561}
 A.acj.prototype={
 $2(a,b){var s=this.a.a[b],r=s.a,q=s.b,p=B.e.k(s.c),o=J.nT(s.d,2)
